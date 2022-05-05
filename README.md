@@ -2,7 +2,7 @@
 The purpose of this coding test is to evaluate your skills using Python and the Django web
 framework.
 
-## The problem
+# The problem:
 
 The IGS team is growing every month and now we need to have some applications to
 manage employee information, such as name, e-mail and department. As any application
@@ -24,7 +24,7 @@ written at IGS, It must have an API to allow integrations.
 ### Response:
 ![ksnip_20220504-233923](https://user-images.githubusercontent.com/67606510/166856353-fcacf37d-76ff-4cb4-ad5c-ffe74f50fb68.png)
 
-# Test Reporter
+# Test Reporter:
 
 All test requirements have been fulfilled.
 
