@@ -34,8 +34,15 @@ All test requirements have been fulfilled.
 
 ✔️ The code should be delivered to a github.com repository.
 
-#### Screenshot:
+## Screenshots:
+#### Request via curl in linux ubuntu terminal:
 ![Screenshot from 2022-05-04 22-35-58](https://user-images.githubusercontent.com/67606510/166852641-ea8aecf2-b5e7-4843-a68b-7fc845c4289a.png)
+
+#### Employee django admin panel:
+![ksnip_20220505-000223](https://user-images.githubusercontent.com/67606510/166857914-4345a8ee-fe09-4f51-b65c-d724720a6940.png)
+
+#### Department django admin panel, this model was created as a way to normalize the data table:
+![ksnip_20220505-000203](https://user-images.githubusercontent.com/67606510/166857921-ff1318ac-3924-4d73-bbe1-6b0101367a5d.png)
 
 
 ## License
