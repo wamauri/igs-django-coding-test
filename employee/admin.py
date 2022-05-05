@@ -17,7 +17,7 @@ admin.site.register(Employee, EmployeeAdmin)
 
 
 class DepartmentAdmin(admin.ModelAdmin):
-    list_display = ('department','created_at','active')
+    list_display = ('id', 'department','created_at','active')
     list_filter = ('created_at', 'department')
     search_fields = ('department',)
 
