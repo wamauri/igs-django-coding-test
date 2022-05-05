@@ -17,6 +17,14 @@ class EmployeeSerializer(serializers.ModelSerializer):
         fields = ("name", "email", "department")
 
     def create(self, validated_data):
+        """
+        This method has been overridden to do the following action:
+        
+        Whether department field text was typed as lower case (text), 
+        this if statement guarantee that the text will be as title 
+        case (Text) and if all text was in upper case (TEXT), 
+        this if statement will do nothing.
+        """
         depart = validated_data.pop("department")
 
         if not depart.isupper():
