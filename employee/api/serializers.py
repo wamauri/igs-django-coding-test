@@ -23,7 +23,9 @@ class EmployeeSerializer(serializers.ModelSerializer):
         Whether department field text was typed as lower case (text), 
         this if statement guarantee that the text will be as title 
         case (Text) and if all text was in upper case (TEXT), 
-        this if statement will do nothing.
+        this if statement will do nothing. Whether department is 
+        not created yet, this method will create a new department. 
+        However if department exist this method will not create a new.
         """
         depart = validated_data.pop("department")
 
