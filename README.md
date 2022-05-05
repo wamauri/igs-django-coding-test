@@ -24,7 +24,7 @@ written at IGS, It must have an API to allow integrations.
 ### Response:
 ![ksnip_20220504-233923](https://user-images.githubusercontent.com/67606510/166856353-fcacf37d-76ff-4cb4-ad5c-ffe74f50fb68.png)
 
-# Test Reporter:
+# Test Answer:
 
 All test requirements have been fulfilled.
 
